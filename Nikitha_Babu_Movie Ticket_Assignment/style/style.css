@@ -1,0 +1,30 @@
+#maindiv{
+    
+        visibility: visible;
+    
+}
+#newuserdiv{
+    
+    visibility: hidden;
+
+}
+#logindiv{
+    
+    visibility: hidden;
+
+}
+#optiondiv{
+    
+    visibility: hidden;
+
+}
+#bookticketdiv{
+    
+    visibility: hidden;
+
+}
+#historydiv{
+    
+    visibility: hidden;
+
+}

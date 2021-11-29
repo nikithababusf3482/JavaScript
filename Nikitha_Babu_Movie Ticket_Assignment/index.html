@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>
+            Movie Tickets
+        </title>
+        <link rel="stylesheet" href="style/style.css">
+        <script type="text/JavaScript" src="scripts/movie.js"></script>
+    </head>
+    <body>
+        <div id="maindiv">
+            <button id="newuser" onclick="newuser()"> New User </button>
+            <button id="login" onclick="newuserlogin()">Login</button>
+        </div>
+        <div id="newuserdiv">
+            <h1>Register Now!!!</h1>
+            <label>Name</label><br><br>
+            <input id="username" type="text" placeholder="Enter your name"/><br><br>
+            <label >Age</label><br><br>
+            <input id="uage" type="number" placeholder="Enter your age"><br><br>
+            <label>Mobile Number</label><br><br>
+            <input id="umobile" type="number" placeholder="Enter your mobile number"/><br><br>
+            <button id="add" onclick="adduser()">ADD</button>
+        </div>
+        <div id="logindiv">
+            <h1>Welcome to our Online Ticket booking !!!!</h1>
+            <label>User ID:</label><input id="userid" type="text"/><br>
+            <button id="userlogin" onclick="validateuser()">LOGIN</button>
+        </div>
+        <div id="optiondiv">
+            <h1>Welcome!!!!</h1>
+            <h2>Select Any one of the Option</h2>
+            <button id="booktickets" onclick="booktickets()"> Book Tickets </button>
+            <button id="showhistory" onclick="showhistory()"> Show Booked History </button>
+              
+        </div>
+        <div id="bookticketdiv">
+            <label>Movie Name</label>
+            <select>
+                <option id="mov1">Jai Bhim</option>
+                <option id="mov2">Avatar</option>
+                <option id="mov3">Bahubali</option>
+            </select>
+            <label>Seat Count:</label>
+            <input type="number" id="movierate" />
+            <button id="ticketsbook" onclick="confirmtickets()">Book Tickets</button>
+             
+        </div> 
+        <div id="historydiv"><label id="bookedhistory"></label></div>
+                
+    </body>
+</html>
